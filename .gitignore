@@ -1,0 +1,10 @@
+node_modules/
+dist/
+
+# Google Tasks 액세스 토큰이 들어있는 파일 — 절대 커밋하지 않는다
+.env
+*.env
+!.env.example
+
+*.log
+.DS_Store
